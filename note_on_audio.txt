@@ -1,3 +1,5 @@
 audio mixed with 8-bit Audio Converter via websim.com
 Bit Depth --> 2 bits
 Sample Rate Reduction --> 10x
+
+Used iphone 12 to record voices and convert them to mp3 from wav via https://www.freeconvert.com/mp3-converter
