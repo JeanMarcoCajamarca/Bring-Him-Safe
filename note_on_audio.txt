@@ -1,1 +1,3 @@
 audio mixed with 8-bit Audio Converter via websim.com
+Bit Depth --> 2 bits
+Sample Rate Reduction --> 10x
