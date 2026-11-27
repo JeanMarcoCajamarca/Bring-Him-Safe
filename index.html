@@ -1,8 +1,6 @@
-<!--this game is dedicated to the muscles mommies out there!
-YEEEAAAAHH!!
+<!--this game is dedicated to the muscles mommies out there, YEEEAAAAHH!!
 created by Jack Karusel, 11.25.2026 
-completed ??.??.????
--->
+completed ??.??.???? -->
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -18,6 +16,21 @@ completed ??.??.????
     </div>
 </header>
 <section id="game">
+    <div id="game-scene" class="scene out">
+        <a href="#" id="gameover-btn">Game Over</a>
+        <a href="#" id="finish-btn">Finish</a>
+    </div>
+    <div id="start-scene" class="scene">
+        <a href="#" id="start-btn" class="button">Start Game</a>
+    </div>
+    <div id="summary-scene" class="scene out">
+        <a href="#" id="next-level-button"
+        class="button">Next</a>
+    </div>
+    <div id="gameover-scene" class="scene out">
+        <a href="#" id="back-to-menu-button" 
+        class="button">Back to menu</a>
+    </div>
 </section>
 <section class='how-to-play'>
     <div class="row">
@@ -33,7 +46,6 @@ completed ??.??.????
 </footer>
 <div id='element-template'>
 </div>
-<!-- this is for something else I believe-->
     <script src='js/scenes.js'></script> 
     <script src='js/game.js'></script>
 </body>
