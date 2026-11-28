@@ -12,6 +12,11 @@
 }) (); //self-executing function
 // Main Game Logic below
 game.flow = {
+  currentLevel: 3,
+  startLevel: function() {
+    game.quest = new game.Quest(this.currentLevel);
+    game.gameScene.visualize(game.quest);      
+  },
   startOver: function() {
     game.startScene.hide();
     game.summaryScene.hide();
@@ -37,4 +42,8 @@ game.flow = {
     game.gameScene.hide();
     game.summaryScene.show();
   },
+}
+
+var init = function() {
+  game.flow.startLevel();
 }

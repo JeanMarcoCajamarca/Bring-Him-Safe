@@ -39,4 +39,4 @@
             game.flow.nextLevel();
         };
 };
-();
+)();
