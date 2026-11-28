@@ -1,13 +1,13 @@
 // this files is singular not plural, so idk how it is gonna work and run... JK 11.27.2026
 (function() {
-    var game = this.BringHimSafe = this.BringHimSafe || 
-    {};
+    var game = this.BringHimSafe = this.BringHimSafe || {};
 // put common scene logic into 'scene' object.
     var scene = {
     node: document.querySelector('.scene'),
     show: function() {
         this.node.classList.remove('out');
         this.node.classList.add('in');
+        }
     },
     hide: function() {
         this.node.classList.remove('in');
@@ -39,3 +39,4 @@
             game.flow.nextLevel();
         };
 };
+();
